@@ -28,3 +28,38 @@ header .logo {
 main {
     padding: 20px;
 }
+
+input {
+    height: 29px;
+}
+
+button {
+    height: 35px;
+}
+
+.name-tag {
+    margin-top: 20px;
+    width: 400px;
+    height: 275px;
+    background: chocolate;
+    text-align: center;
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: 40px;
+}
+
+.intro-line {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.name {
+    margin-top: 50px;
+    height: 70px;
+    background: white;
+    color: black;
+    text-decoration: solid;
+    font-size: 40px;
+    font-family: 'Bungee Spice';
+}
