@@ -14,30 +14,36 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap"
             rel="stylesheet"
         />
+
         <title>My Project</title>
     </head>
 
     <body>
         <header>
-            <h1>My Project</h1>
+            <h1>Very Cool Name Tag</h1>
         </header>
 
         <main>
             <!--This section is the controls-->
-            <section>
-                <label>Name</label>
-                <input />
-                <button>Enter</button>
+            <section class="name-prompt">
+                <label>Name: </label>
+                <input id="name-input" />
+                <button id="update-btn">Enter Name</button>
+            </section>
+            <section class="color-prompt">
+                <label>Favorite Color: </label>
+                <input id="color-input" />
+                <button id="update-btn2">Enter Color</button>
             </section>
 
             <!--This section has the outputted name tag -->
             <section class="name-tag">
                 <h1>Hello</h1>
                 <p class="intro-line">my name is</p>
-                <p class="name">Aaron</p>
+                <p class="name" id="name">Aaron</p>
             </section>
         </main>
     </body>
